@@ -1,0 +1,25 @@
+name: mkvm
+about: Make virtual machines on KVM.
+args:
+    - verbose:
+        help: Verbosity level.
+        long: verbose
+        short: v
+        multiple: true
+    - debug:
+        help: Debugging level.
+        long: debug
+        short: d
+        multiple: true
+subcommands:
+    - define:
+        about: Defines various kinds of objects.
+        subcommands:
+            - vm:
+                about: Defines virtual machines.
+                args:
+                    - INPUT:
+                        help: Input file(s) or - for STDIN.
+                        multiple: true
+                        takes_value: true
+                        required: true

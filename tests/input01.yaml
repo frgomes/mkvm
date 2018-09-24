@@ -1,0 +1,97 @@
+apiVersion: v1
+kind: PublicKeys
+ssh-authorized-keys:
+  rgomes:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDJOHQQ7mV95bO1urP8Vtj/F2cDKajBdspDGRTvYOLAvQkAWxOE4h1GtKFvkfTYZgoKUD+VV95D24J5F2SuSbCw6zeNPJJRtU42UfaKe6FOSskf5z1xwLFsPwpVfehk1F41jfm88BlSNV85tO6XSBZydJ8uIWzsktbHM584m2xisKKWhcruow4thpR15qwt4zmevlzTBzIoV5l6Y97/+49Jrow93TIvufEJuPOgCk3hmK4b8+Qe5xf7q7TrrcgLOS1rLbdfMzV6oQdUwldEgGyVGe8afE+dtArgNCyxqpJtmgw+ieoyqH8SENCljJJk8AS3dqibmUqhBdWBdYXB1mBEvJzHanqYGgt35cwEzccmGkF5x++QT0bN92/iIIh0SftPw3qnvAChW76+6fBFbXnIGvwdWqKr2GsF8jDMm5sBJX6vcw+LtSXypMb19MPMH8uHWTTFwXpPek/tPujL0RojIMu6p/YVRNZcBnDe9lj/zLksUw7nyaRKZ4tTjX5jOA8jZCvaII5EB3NrFYjk4Rg5AevWh+oSc3N4ncgxgtuYZdRJ6Z8oz0+Xoxwdls+J7JGznI2f6fJlEaA3wz/1QZAXgbx36ocLuW+JHSiDc+9ZX58KlxVJwWYNrp9HDkQT72SiWlQLvYsu9/HgXeZAvH8vc3DPMXzqYahzedi3mLYPJw== rgomes@lua.mathminds.io
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqAeUpYHrCOCUfbiiAnW+xDXCDzEKgOtk0XkO5zKIOoVJsTacNYn1nz0HHgLeyaEXm58F3ca/VS+/vih5ctn913o7oM7dIicb+zSf7e6fC7Q06Azgy3Fiud2cubJK+SSSJaAQF3XdBmWoWHBUTno1JoP62YKaQ92GiURU6F7ldNqQB1y1I9KejepRnWSSdT1zuEaFdy3i/hsSgVXRrxe2AHl4/eLV2UHgPaj8JMCQOdfysWTIGQp4kjU83Nk3XKeiLnElpASwI6uas7cFvyOM/3JEHA6vLwdBlVBWD88sAAM6PuVk6WPvWxux3ZbvReklIlE/k4wJt29Bbh6Ej8fr/nBi/FLjF+QXTkSPM2pu5Qa2Ah2Yd7RzaAU6y8hvozNX1MPVXIzcrpISvqAGbJlom+2v1bY8wTVYjOeYGWs497dgArWpnGBMwjh9GbVz76aYkyUyCERWOGRe69RSGFIYVcvbupQHOuGFPv6WiiLFdgyuIFXf5jXjeZ2QqjNweEpj+Sp0u+r6sCkNMv3FWf8LTX33njPkEAccrfqRNzP99jk8LCEAFetpytt/DIlf6HhzclJkirl5QZqBc26pktFU0ILVQEhjoKEftfjq+y4zNuXB3wYLWlq3DUlBZr0x8pgm4FkXZB6T3oA3NulIF7+cZA5eG+kymHddWZea8exlfGQ== rgomes@terra.mathminds.io
+  mgunther:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDsZBBkWzTFKaXKxp8t1kCiy+crVGzMxe3+bP0tuE/2h19kLGvaeGCTOt/TqkkSe+VZpdpaGM/UeDnuWdgGlAuR4UvoSE8VCadGYR+E9o+C8GpQpR6nXO7Ul10JdbRIauPDpPVmhYYWJlavNwc0zIx3aup2c3Ihoclrosi3hAlX7O3/S1mihGzUrbulvKsPBjw4ay/mAtLF+QJbYzFcJMcS8EN0+B74mO22WOfB1Jre+A+idVGm6Lb7bhFb/SdmbbUGlwGwgpq2YBO0PZixH6q9hCQtjroAGhFqhMtBJsCllOR+zfQkeRwBBd8Br24PUretT+VvO9cKH2lDYYjz2DrqRMOgHdUJhL4S/k2Rz9BR1VnjFOGw+hOmDgC3+ugoQZ9w3SZ8T5WUSdvpXN+9DD/UA2r7EiFJJr1HCs12ILsh+uVY+NX8WR9SN4Yu6RVQZNZwMjbJD6itk82wOKnG6727hzstuAtcwIRJx5LulvoM38h0s03A6YoDd4c21QEVX9vWL3EEI8b0uAzRfSYYSCpllaOgLQdLeXIJRyfzJRbGkzjKaS/iUFSXygZE4NQLWeFawsQ/c/po+UXE4/TueOUfaO3eJqAvXB1MB9AD6raRPdY0C44JPQxIMhX5X5vZn/DpFAnx0PAlTTcA2ecYQbJkCdFQVKi7Sx+RDD1ux9Tx0w== mgunther@mgunther02
+  rudah:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCVz4MJlDXGRerV4+f89e+9J8H9HSf7AlMit13Bx4W9+TVi0dzLtg4xCvCXqGTovmYT0fKD4rvB4Tceo2pDLbhAsJYissdkIx3vdmA2v9Wtz1eDmqXUvctpMi8EOQJZdnWkWUnVNgwJirotjq/wo8OYU01c5J4gT6krL40kJ1jszh4yBIVT6MQoHgpzZjpQnjokT3baHLXL+KlIlkevbYWsU3Gy5AkuvXrV2NT/ioOxzud3BALcd48bOf3oW8Xnd21tPPCYb+kcOBhbxPyPO6vF7cDO8UVZulkoLUM2XTMqDVrl/Kf7l94Gn6b4i9aPvCCEw8fn5x3x2dkHIXjlZuP+dk/b0RL0pzwOMFXVgvdVoI9peea7DPLF3FRID4jq6b2goOJz0SjrAbncvAzymV1qxPfZx/jBcWR2/YrN7cWvHKCB3wP/hwBjra9RRvQAjyhTqt/+EDldWcOKhBvPq6EzHgXsZ2bMWYaFOiUJG+JIwjS50fxGySM9cucdJ4tRr2aWDfi5oylpJMUk+p17F4DhdfvgxwNY0KWTdv6iGeIse98ytIOPLt5uMAVBnap30mtYLqq2dtoUzTIK4a6DT1NFkicx+nqDN/pVlh/yyTPO7azmD3aEAG48YOYBvLBTRoEsIiZfBdGr7Nk9VqhyYcA9kUTbu1AS1uTOSRCSNz/O1w== airudah2000@gmail.com
+  avaz:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAgEAh0YlBfZseSiXjcAt1Fs1pT07Hn7ClfTRk8r/0U9V9/LrDaRJVQ7uzFHX8oHPfsbgB4WG+SlSODa2F2icY4MI8eGZTTDSOtCGGrMi/RlPka0GSuSMdTgHoWGHLxd1qgBSBalzcVB+bRPAy6BkaW0KIwWpN3M8K4NEFOKQQqPKeK0HItxD1lO946Mb/B0FPKLBGVGPOoYHZgGMB3Th/B5lkElb89OFVGVjJCb/n/pvlAkZ25zPkE/jK4KzjiQbRq8iiIwHcb11VbX0tJZ0jdOHWm+8ADxEZubzxhoeHJYZFrTFSoHnCndxZKGo0MdauTn4s4kNyKPBAH8f5GyV5Als+dVvbqQ7rFYsuG/TUDmZy/9I6FPcZymZxaaqiPd3xCLlu0DkGQUOoBHTfFKZQ25PgOfqXSSMFaHGanrkm903p7dVH0w06JRhRDPkly1CvCopgpUW7bKGoWwXpEvExko75+iQkYipvi4YiumzJoxb6RMd94TR4vPTRkPisWD1lTrVh6dnyNglzCXIM2An8Y/oGLSe6jLwwabHyKBEgtG9K6g/y0N3gs196mztzDOLflYLYcGKTUlx+CB42PGfOMiaR9PBcEVjmG7RQF1873dUE+ym7qrn1de7pOUst/dOqfw2k2qHLlN5XmnG/R4lRkc5EUZ1r7NE0SO5vu6SdSDJhS8= armindovazfilho@yahoo.com
+---
+apiVersion: v1
+kind: ImageDescription
+name: centos7.5
+image:
+  - name: centos-1805
+    url: https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-1805.qcow2
+  - name: debian-9
+    url: https://cdimage.debian.org/cdimage/openstack/current/debian-9.5.2-20180809-openstack-amd64.qcow2
+  - name: rhel-7.5
+    url: rhel-server-7.5-update-3-x86_64-kvm.qcow2
+---
+apiVersion: v1
+kind: MachineDescription
+description: A control center intended for cluster management
+name: okd10cc
+image: centos-1805
+vcpus: 1
+memory: 4GiB
+disks: 
+  - 25GiB
+  - 20GiB
+network:
+  domains:
+    - okd10.mathminds.io
+  nameservers:
+    - ns1.he.net
+    - ns2.he.net
+    - ns3.he.net
+    - ns4.he.net
+    - ns5.he.net
+  interfaces:
+    - name: eth0
+      mac: 52:54:00:2c:ca:ef
+      ipv4: dhcp
+      ipv6: dhcp
+  ddns:
+    strategy: ddns-update
+    provider: he.net
+    password: 453646433
+users:
+  - name: rgomes
+    gecos: Richard Gomes
+    groups: [ users, wheel ]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: true
+    ssh-authorized-keys:
+      - rgomes
+  - name: mgunther
+    gecos: Marcio Gunther
+    groups: [ users, wheel ]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: true
+    ssh-authorized-keys:
+      - mgunther
+  - name: rudah
+    gecos: Robert Udah
+    groups: [ users, wheel ]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: true
+    ssh-authorized-keys:
+      - rudah
+  - name: avaz
+    gecos: Armindo Vaz
+    groups: [ users, wheel ]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: true
+    ssh-authorized-keys:
+      - avaz
+  - name: admin
+    gecos: System Administrator
+    groups: [ users, wheel ]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: ${lock_password}
+    passwd: $(vmtool_mkpasswd)
+    ssh-authorized-keys:
+      - rgomes
+      - mgunther
+      - rudah
+      - avaz

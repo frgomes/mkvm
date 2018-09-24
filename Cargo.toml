@@ -1,0 +1,17 @@
+[package]
+name = "mkvm"
+version = "0.1.0"
+authors = ["Richard Gomes <rgomes.info@gmail.com>"]
+readme = "README.rst"
+license = "BSD"
+keywords = [ "kvm", "libvirt", "provision" ]
+description = """
+Make virtual machines on KVM
+"""
+
+[dependencies]
+yaml-rust = "0.4.2"
+clap = {version = "2.32", features = ["yaml"]}
+
+[profile.release]
+panic = 'abort'
