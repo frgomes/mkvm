@@ -5,10 +5,33 @@ Makes virtual machines on KVM.
 
 http://github.com/frgomes/mkvm
 
-STATUS: inception
+Status
+------
+Inception
+
+Motivation
+----------
+
+We are a group of people investing a lot of time and effort on Redhat OpenShift. As part of this effort and as part of a lot of tests we've already performed, we destroyed and rebuilt our custer literally dozens of times. I knew beforehand that such thing would happen and so, I've put the cart before the horses and I've built a very simple shell script intended to help us create virtual machines easily and quickly.
+
+Along the way, we found that network settings should be more flexible than the shell script initially permitted. More flexibility was desirable for other aspects too, including the Linux distribution employed; initially only Centos 7.5 was supported but along the way we've added support for RHEL 7 and also support for Debian Stretch. The point is: it became clear that shell scripting is very limiting as complexity increases and as number of functionalities increase. Shell scripting is an easy and fast win in the short run but infeasible as complexity and functionalities increase.
+
+Why Rust?
+
+Since my intent is not starting a flame war here, let's simply accept that this is a codebase written in Rust. If you are convinced that Rust is for you, I invite you to contribute with PRs. Even if you think that Rust is not for you, you can still contribute with your time testing the results of our work or simply sharing with us your ideas and suggestions.
+
+Code of conduct
+---------------
+
+Just be nice and we will be all fine.
+
 
 For the impatient
 -----------------
+
+Out intent here is demonstrate how a virtual machine can be first defined and later effectively created.
+
+    >>> This project is still in inception phase and this functionality does not work yet. 
 
 First describe the characteristics of a virtual machine:
 
@@ -81,21 +104,19 @@ Then simply build the application with ``cargo``:
 
   $ cargo build
 
-
-This is my Emacs configuration for Rust development:
-
-    https://github.com/frgomes/.emacs.d
-
-
 If you are not acquainted to Rust
 ---------------------------------
 
-IMHO, [Rust](http://rust-lang.org) is the most relevant thing that happened in the domain of programming languages since C was invented back in the 60's. It's an innovative and unique programming language. It's the only programming language which allows you to write an operating system without facing the segmentation faults.
+IMHO, `Rust <http://rust-lang.org>`_ is the most relevant thing that happened in the domain of programming languages since C was invented back in the 60's. It's an innovative and unique programming language, which not only promisses memory safety, but in fact really allows you to write an operating system without facing segmentation faults and without using *gdb* at all (`see video here <https://www.youtube.com/watch?v=lBQHrj6vwAo>`_ and skip to 35:35mins until 38:30).
 
 This video below is key for understanding the language. It's a video made by professioanal developers for experienced professional developers, going straight to the point, with useful and real life examples:
 
- * Stanford Seminar - The Rust Programming Language at https://www.youtube.com/watch?v=O5vzLKg7y-k
+ * `Stanford Seminar - The Rust Programming Language <https://www.youtube.com/watch?v=O5vzLKg7y-k>`_
 
 An excellent series of hands-on, introductory videos on Rust is here:
 
- * Hello Rust, by Mattias Endler, at https://hello-rust.show
+ * `Hello Rust, by Mattias Endler <https://hello-rust.show>`_
+
+I use Emacs as an IDE for development in Rust:
+
+ * `This my Emacs configuration folder. <https://github.com/frgomes/.emacs.d>`_
