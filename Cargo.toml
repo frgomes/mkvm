@@ -1,0 +1,15 @@
+[package]
+name = "mkvm"
+version = "0.1.0"
+authors = ["rgomes <rgomes.info@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+error-chain = "0.12.4"
+uuid = { version = "0.8.1", features = ["serde", "v1", "v5"] }
+gtmpl = "0.5.7"
+gtmpl_derive = "0.3.3"
+gtmpl_value = "0.3.3"
