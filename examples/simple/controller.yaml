@@ -1,0 +1,5 @@
+controller:
+  hostname: mars
+  domain: example.com
+  email: me@example.com
+  pubkey: "~/.ssh/id_ed25519_{{controller.hostname}}.{{controller.domain}}"

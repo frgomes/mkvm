@@ -1,0 +1,9 @@
+hypervisor:
+  hostname: terra
+  hypervisor: libvirt
+  network_bridge: br4300
+  network_mode: bridge
+  network_name: dmz
+  pool_name: volumes
+  storage_format: qcow2
+  url: qemu+ssh://rgomes@{{hypervisor.hostname}}.{{controller.domain}}/system?keyfile={{controller.pubkey}}

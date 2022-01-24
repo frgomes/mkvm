@@ -1,0 +1,32 @@
+syntax: glob
+
+# emacs and zile
+**/*~$
+**/*.ZILESAVE$
+
+# eclipse
+**/.classpath$
+**/.project$
+**/.settings$
+
+# intellij
+**/.idea/
+**/.idea_modules/
+**/.lib/
+**/*.iml$
+**/*.ipr$
+**/*.iws$
+
+# netbeans
+**/.classpath_nb$
+
+# common folders and files
+**/target/
+**/lib/
+**/out/
+**/*.log$
+**/*.out$
+**/*.tmp$
+**/*.bak$
+
+# application specific

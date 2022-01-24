@@ -1,0 +1,36 @@
+[package]
+name = "mkvm"
+version = "0.1.0"
+authors = ["rgomes <rgomes.info@gmail.com>"]
+edition = "2021" 
+
+# See more keys and their definitions at
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "^1.0", features = ["derive"] }
+serde_yaml = "^0.8"
+handlebars = { version = "^4.1", features = [] }
+clap = { version = "^3.0", features = [] }
+anyhow = "^1.0"
+
+
+##XXX json_value_merge = "^1.0"
+##XXX serde_json = "^1.0"
+##XXX templar = { version = "0.5.0", features = ["default"] }
+##XXX error-chain = "0.12.4"
+##XXX uuid = { version = "0.8.1", features = ["serde", "v1", "v5"] }
+##XXX gtmpl = "0.5.7"
+##XXX gtmpl_derive = "0.3.3"
+##XXX gtmpl_value = "0.3.3"
+
+
+
+### grab ideas from here:
+#
+# 1. https://github.com/mitsuhiko/minijinja/blob/main/examples/minimal/src/main.rs
+# 2. https://github.com/fiji-flo/gtmpl-rust
+# 3. https://github.com/Z4RX/serde_merge
+# 4. https://tarquin-the-brave.github.io/blog/posts/rust-serde/
+# 5. https://github.com/mandx/mungye
+

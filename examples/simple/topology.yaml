@@ -1,0 +1,80 @@
+api: 0.1
+vms:
+  - hostname: vaultwarden
+    image: https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-genericcloud-amd64.qcow2
+    cpu: host-passthrough
+    vcpu: 1
+    memory: 1024
+    disks:
+      - device: /dev/vdb
+        fstype: ext4
+        label: data00
+        mountpoint: /mnt/data00
+        opts:
+        - defaults
+        size: 10240000000
+    networks:
+      - name: lan
+        zone: "{{controller.domain}}"
+        subdomain: lan
+        qtype: A
+        dns:
+          - 192.168.1.1
+      - name: public
+        zone: "{{controller.domain}}"
+        subdomain: 
+        qtype: AAAA
+        dns:
+          - 1.1.1.1
+          - 1.0.0.1
+    users:
+      - username: ansible
+        role: admin
+        authorized_keys:
+        - "{{secrets.pubkey_mars}}"
+        - "{{secrets.pubkey_terra}}"
+      - username: autorun
+        role: service
+        authorized_keys:
+        - "{{secrets.pubkey_mars}}"
+        - "{{secrets.pubkey_terra}}"
+
+  - hostname: webtoolz
+    image: https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-genericcloud-amd64.qcow2
+    cpu: host-passthrough
+    vcpu: 1
+    memory: 1024
+    disks:
+      - device: /dev/vdb
+        #fsopts: 
+        fstype: ext4
+        label: data00
+        mountpoint: /mnt/data00
+        opts:
+        - defaults
+        size: 10240000000
+    networks:
+      - name: lan
+        zone: "{{controller.domain}}"
+        subdomain: lan
+        qtype: A
+        dns:
+          - 192.168.1.1
+      - name: public
+        zone: "{{controller.domain}}"
+        #subdomain:
+        qtype: AAAA
+        dns:
+          - 1.1.1.1
+          - 1.0.0.1
+    users:
+      - username: ansible
+        role: admin
+        authorized_keys:
+        - "{{secrets.pubkey_mars}}"
+        - "{{secrets.pubkey_terra}}"
+      - username: autorun
+        role: service
+        authorized_keys:
+        - "{{secrets.pubkey_mars}}"
+        - "{{secrets.pubkey_terra}}"
